@@ -12,7 +12,7 @@ test('Can create a city object', () => {
 });
 
 test('Can create a city object by factory', () => {
-    let city = City.create()
+    let city = Model.create('City')
     expect(city).toBeInstanceOf(Model);
 });
 
