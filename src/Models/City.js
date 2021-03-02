@@ -1,4 +1,4 @@
-module.exports = class City {
+module.exports = class City{
     constructor(data = null) {
         if(data) {
             this.id = data.id;
